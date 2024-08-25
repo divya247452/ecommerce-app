@@ -1,0 +1,73 @@
+.custom-link {
+  text-decoration: none;
+  color: inherit; 
+}
+
+main {
+  min-height: calc(100vh - 60px - 50px);
+}
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.max-h-200 {
+  max-height: 200px;
+}
+
+.product-title {
+  font-size: 1.25rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body h3 {
+  margin-top: auto; 
+}
+
+/* Custom scrollbar for WebKit browsers */
+.custom-scrollbar {
+  overflow: auto; 
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #073944; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #969da0; 
+}
